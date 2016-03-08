@@ -1,0 +1,19 @@
+{
+  "name": "huenode",
+  "version": "1.0.0",
+  "description": "Node experiments for controling Hue",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/nlipsyc/hueNode"
+  },
+  "author": "Noah Lipsyc",
+  "license": "ISC",
+  "dependencies": {
+    "node-hue-api": "^2.2.0"
+  }
+}
